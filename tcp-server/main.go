@@ -83,7 +83,7 @@ func main() {
 		}
 		connectionId += 1
 		log.Printf("Got a connection from %s. Assigning connId %d", conn.RemoteAddr(), connectionId)
-		handleConnection(conn, connectionId)
+		go handleConnection(conn, connectionId)
 	}
 }
 
