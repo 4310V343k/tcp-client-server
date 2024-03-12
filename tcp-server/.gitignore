@@ -1,0 +1,9 @@
+tcp-server*
+
+# go test
+*.test
+# go workspace
+go.work
+
+log.txt
+config.json

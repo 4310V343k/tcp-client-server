@@ -1,0 +1,8 @@
+debug/
+target/
+
+# rustfmt
+**/*.rs.bk
+
+config.json
+log.txt
